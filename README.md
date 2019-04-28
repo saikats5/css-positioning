@@ -18,3 +18,5 @@ p {
     column-rule: 1px solid #ccc;
     text-align: justify;
 }
+
+position: absolute is always relative to the parent which is having relative position whereas fixed always positioned itself to document window
