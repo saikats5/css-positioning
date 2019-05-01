@@ -20,3 +20,7 @@ p {
 }
 
 position: absolute is always relative to the parent which is having relative position whereas fixed always positioned itself to document window
+
+stacking order matter that's why fixed element put at the bottom else overridden by below elemnets while scrolling, z-index will solve the issue
+
+when content clipped out of the container using overflow we can add scroll or make it fit within the container
